@@ -1,14 +1,10 @@
-
-
-
-
 # MOPE Лабораторна №3
 
 ## Данилюк Денис ІВ-82
 
 ## Варіант 207
 
-![image](image.png)
+![image](resources/image.png)
 
 
 
