@@ -1,6 +1,5 @@
 import numpy as np
 import random
-import functools
 from numpy.linalg import solve
 from scipy.stats import f, t
 import prettytable as p
@@ -79,6 +78,7 @@ def find_coefficient(x, y_aver, n):
     mx2 = sum(x[:, 2]) / n
     mx3 = sum(x[:, 3]) / n
     my = sum(y_aver) / n
+
     a12 = sum([x[i][1] * x[i][2] for i in range(len(x))]) / n
     a13 = sum([x[i][1] * x[i][3] for i in range(len(x))]) / n
     a23 = sum([x[i][2] * x[i][3] for i in range(len(x))]) / n
